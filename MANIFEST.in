@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_wunderlist *.css
+recursive-include erpnext_wunderlist *.csv
+recursive-include erpnext_wunderlist *.html
+recursive-include erpnext_wunderlist *.ico
+recursive-include erpnext_wunderlist *.js
+recursive-include erpnext_wunderlist *.json
+recursive-include erpnext_wunderlist *.md
+recursive-include erpnext_wunderlist *.png
+recursive-include erpnext_wunderlist *.py
+recursive-include erpnext_wunderlist *.svg
+recursive-include erpnext_wunderlist *.txt
+recursive-exclude erpnext_wunderlist *.pyc
